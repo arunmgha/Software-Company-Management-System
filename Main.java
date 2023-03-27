@@ -2,15 +2,15 @@
 public class Main {
     public static void main(String[] args) {
         // Create several Employee objects
-        Employee employee1 = new Employee("John Doe", "E001", "Development", 50000);
-        Employee employee2 = new Employee("Jane Smith", "E002", "Development", 60000);
-        Employee employee3 = new Employee("Bob Johnson", "E003", "Development", 70000);
-        Employee employee4 = new Employee("Alice Brown", "E004", "Marketing", 80000);
-        Employee employee5 = new Employee("David Lee", "E005", "Marketing", 90000);
+        Employee employee1 = new Employee("Arun", "E001", "Development", 50000);
+        Employee employee2 = new Employee("Chandru", "E002", "Development", 60000);
+        Employee employee3 = new Employee("Deepak", "E003", "Development", 70000);
+        Employee employee4 = new Employee("Vishnu", "E004", "Marketing", 80000);
+        Employee employee5 = new Employee("Nishant", "E005", "Marketing", 90000);
 
         // Create several Manager objects
-        Manager manager1 = new Manager("Mike Williams", "M001", "Development", 100000);
-        Manager manager2 = new Manager("Sarah Davis", "M002", "Marketing", 110000);
+        Manager manager1 = new Manager("Hrithik", "M001", "Development", 100000);
+        Manager manager2 = new Manager("Abu", "M002", "Marketing", 110000);
 
         // Create several Project objects
         Project project1 = new Project("Project A", "P001", "2022-01-01", "2022-06-30");
